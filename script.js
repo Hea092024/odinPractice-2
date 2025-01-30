@@ -1,4 +1,10 @@
+
+
+let userName = "Hector";
+
 function showMessage() {
-  alert("Hello everyone!");
+  let message = "Hello, " + userName;
+  alert(message);
 }
+
 showMessage();
